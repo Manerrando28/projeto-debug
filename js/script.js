@@ -26,7 +26,7 @@ let time = 3000;
 
 function slideShow() {
   //pegando o id da imagem no html para poder carregar as imagens usando DOM
-  document.getElementById('img').src = imagens[Index];
+  document.getElementById('banner').src = imagens[Index];
   //incremento das imagens e sua posição
   Index++;
 
