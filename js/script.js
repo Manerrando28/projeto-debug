@@ -39,7 +39,10 @@ function slideShow() {
   setTimeout('slideshow()', time);
 }
 //executar toda a função
-slideshow();
+      function slideshow(){
+ const modal =document.querySelector("#modal");
+ modal.style.display ="block";
+}
 
 
 
